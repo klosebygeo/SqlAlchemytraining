@@ -28,4 +28,4 @@ users = session.query(User).all()
 users_over_29 = session.query(User).filter(User.age >= 29)
 for user in users_over_29:
     print(user.first_name, user.email, user.age)
-#test
+#test2
